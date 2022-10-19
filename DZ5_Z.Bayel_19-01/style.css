@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    background: url("https://kartinkin.net/uploads/posts/2021-07/thumbs/1626140658_43-kartinkin-com-p-krasivii-fon-dlya-teksta-odnotonnii-krasiv-44.jpg");
+    background-size: cover;
+
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 3rem;
+    text-decoration: none;
+}
+ul{
+    text-align: left;
+    padding-left: 10%;
+    padding: 7%;
+    font-size: 2rem;
+    list-style: circle;
+}
+li:hover{
+    color: red;
+    margin: 1%;
+    transition: 1.5s ease;
+    cursor: pointer;
+}
+.row {
+    justify-content: center;
+}
+.form-group {
+    text-align: center;
+    margin-top: 10px;
+    transition: transform 80ms;
+}
+.form-group:hover{
+    transform: scale(105%);
+}
+.form-group:hover:after{
+    content: '';
+    width: 20px;
+    display: flex;
+    height: 20px;
+    position: absolute;
+    margin-top: -2.3%;
+    margin-left: 53.5%;
+    background: url("img/add1.png") no-repeat;
+    background-size: contain;
+}
+.delete_btn{
+    text-align: center;
+    margin-top: 10px;
+    transition: transform 80ms;
+
+}
+.delete_btn:hover{
+    transform: scale(105%);
+}
+.delete_btn:hover:after{
+    content: '';
+    width: 20px;
+    display: flex;
+    position: absolute;
+    height: 20px;
+    margin-top: -2.3%;
+    margin-left: 53.5%;
+    background: url("img/deel.png") no-repeat;
+    background-size: contain;
+}
